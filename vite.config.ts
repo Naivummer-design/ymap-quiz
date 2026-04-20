@@ -17,7 +17,7 @@ function getBasePath() {
 }
 
 export default defineConfig({
-  base: getBasePath(),
+  base: 'ymap-quiz',
   envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
   plugins: [react(), tailwindcss()],
   resolve: {
